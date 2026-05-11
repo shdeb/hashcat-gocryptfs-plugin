@@ -1,6 +1,8 @@
 # Hashcat GoCryptFS Plugin
 Hashcat [GoCryptFS](https://github.com/rfjakob/gocryptfs) Plugin
 
+Logic is based on decrypt flow of [libgocryptfs](https://github.com/hardcore-sushi/libgocryptfs) usen in [DroidFS](https://forge.chapril.org/hardcoresushi/DroidFS) (gocryptfs for android)
+
 Setup
 - put **`gocryptfs_hkdf_FT.py`** in HASHCAT_ROOT/Python/
 - put your .conf in HASHCAT_ROOT/Python/ or provide the path to it in the passed hash
