@@ -1,5 +1,5 @@
-# GoCryptFS Hashcat Plugin
-GoCryptFS Hashcat Plugin
+# Hashcat GoCryptFS Plugin
+Hashcat GoCryptFS Plugin
 
 Setup
 - put **`gocryptfs_hkdf_FT.py`** in HASHCAT_ROOT/Python/
