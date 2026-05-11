@@ -2,7 +2,7 @@
 GoCryptFS Hashcat Plugin
 
 Setup
-- put gocryptfs_hkdf_FT.py in HASHCAT_ROOT/Python/
+- put **`gocryptfs_hkdf_FT.py`** in HASHCAT_ROOT/Python/
 - put your .conf in HASHCAT_ROOT/Python/ or provide the path to it in the passed hash
   <br>hash format = `gocryptfs*Z:path/to/your/gocryptfs.conf`
 
