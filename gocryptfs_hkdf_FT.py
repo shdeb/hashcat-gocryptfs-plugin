@@ -105,7 +105,7 @@ def extract_esalts(esalts_buf):
     # print("\nRaw hash_buf :", repr(hash_buf))
     # print("Raw salt_buf :", repr(salt_buf))
     
-    config_path,salt,encrypted_key,nonce,ciphertext,tag,N,P,R = None,None,None,None,None,None,None,None,None
+    config_path,salt,encrypted_key,nonce,ciphertext,tag,N,P,R = '.\\Python\\gocryptfs.conf',None,None,None,None,None,None,None,None
     # === Try different decodings ===
     for encoding in ['utf-8', 'utf-16-le', 'utf-16', 'latin1', 'cp1252']:
         try:
